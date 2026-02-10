@@ -1,4 +1,4 @@
-﻿#define _USE_MATH_DEFINES
+#define _USE_MATH_DEFINES
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -71,12 +71,12 @@ void task_1() {
 		cout << "Ошибка: Знаменатель равен нулю" << endl;
 	}
 	else {
-		double fraction = chislit / full_znam;
-		if (fraction < 0) {
-			cout << "Ошибка: Подкоренное выражение меньше нуля (" << fraction << ")" << endl;
+		double podkoren = chislit / full_znam;
+		if (podkoren < 0) {
+			cout << "Ошибка: Подкоренное выражение меньше нуля (" << podkoren << ")" << endl;
 		}
 		else {
-			double res = sqrt(fraction);
+			double res = sqrt(podkoren);
 			cout << "Для выражения при a= " << defaultfloat << a << " и b=" << b;
 			cout << fixed << setprecision(5);
 			cout << "\nОтвет (5 знаков): " << res << endl;
