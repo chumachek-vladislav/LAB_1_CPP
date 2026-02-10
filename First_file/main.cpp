@@ -137,7 +137,7 @@ void task_3() {
 
 	if (num1 == 1) {
 		int n;
-		cout << "\nПодзадача 1\n"; 
+		cout << "> Подзадача 1\n"; 
 		cout << "Введите натуральное число n: ";
 		cin >> n;
 		if (n <= 0) {
@@ -154,7 +154,7 @@ void task_3() {
 		}
 	}
 	else if (num1 == 2) {
-		cout << "\nПодзадача 7\n";
+		cout << "> Подзадача 7\n";
 
 		double P = 1.0;
 		for (int i = 1; i <= 20; i++) {
@@ -170,7 +170,8 @@ void task_3() {
 }
 
 void task_4() {
-	cout << "\nВычислить значение 1/a\n";
+	cout << "\n> Задание 4\n";
+	cout << "Вычислить значение 1/a\n";
 
 	double a;
 	cout << "Введите число a: ";
